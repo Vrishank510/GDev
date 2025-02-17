@@ -1,0 +1,255 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 224,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "57310755-ac78-4593-89f3-e61c497d2823",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Ceaseless Bed",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [
+      {
+        "extension": "Firebase",
+        "property": "FirebaseConfig",
+        "value": ""
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Aerial Attack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Aerial Attack.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/1f9088295b372e57cc2217444a5bb5247eb8806100ab49169be5eedfb0b5a43c_Chi Chi the Bird_Aerial Attack.png",
+          "name": "Chi Chi the Bird_Aerial Attack.png"
+        }
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Falling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Falling.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/9dc7356e0994b87b58e91451c48ba58ed2c5a02e2e20991714760cdff61db268_Chi Chi the Bird_Falling.png",
+          "name": "Chi Chi the Bird_Falling.png"
+        }
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Flapping Wings_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Flapping Wings_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/0695fb9e00620c3e49978a912115b8ec5e4c63bfc2950b7b7ea3bb540cef0b70_Chi Chi the Bird_Flapping Wings_1.png",
+          "name": "Chi Chi the Bird_Flapping Wings_1.png"
+        }
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Flapping Wings_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Flapping Wings_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/aabf824203cc1da9650615de5a5302affe154a7d8f254fec183e8fdee2ce709c_Chi Chi the Bird_Flapping Wings_2.png",
+          "name": "Chi Chi the Bird_Flapping Wings_2.png"
+        }
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Flapping Wings_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Flapping Wings_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/d4f211f8211c81ffbaae748150b236c67a07206f1d9536e3ba86d291e2570c8b_Chi Chi the Bird_Flapping Wings_3.png",
+          "name": "Chi Chi the Bird_Flapping Wings_3.png"
+        }
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/f3a2cfe7ffc611d674d316e4797b4f973de5c018d79629d825bc89681e788f24_Chi Chi the Bird_Hurt.png",
+          "name": "Chi Chi the Bird_Hurt.png"
+        }
+      },
+      {
+        "file": "assets/Chi Chi the Bird_Standing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chi Chi the Bird_Standing.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Chi Chi the Bird/db7b414f5e1e6c385b901b1394fa14ee3892cd006a2c05ab96c9acd7c0790963_Chi Chi the Bird_Standing.png",
+          "name": "Chi Chi the Bird_Standing.png"
+        }
+      },
+      {
+        "file": "assets/Full Column.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Full Column.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/217f7feac38406b4c8f652ed7d7f34dbcdc432f911f006eec2258b596e9411c1_Full Column.png",
+          "name": "Full Column.png"
+        }
+      },
+      {
+        "file": "assets/Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/261d2f5da18169c3f3f0cf2940b975a4eb4eef808b2a5d5a6d0533c21117b142_Arrow.png",
+          "name": "Arrow.png"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    }
+  ],
+  "externalLayouts": []
+}
