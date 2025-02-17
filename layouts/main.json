@@ -18,11 +18,17 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5290357402156843,
+    "zoomFactor": 0.6897782140104504,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "ammo",
+      "type": "number",
+      "value": 5
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -70,7 +76,7 @@
       "persistentUuid": "d6ce1454-2fc2-4b5c-a434-3aad78b056c7",
       "width": 96,
       "x": 480,
-      "y": -64,
+      "y": -96,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -88,7 +94,7 @@
       "persistentUuid": "3ce71769-0d17-4b02-a20d-de99e877d17a",
       "width": 96,
       "x": 1088,
-      "y": -64,
+      "y": -96,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -123,7 +129,7 @@
       "persistentUuid": "de81cf42-5876-45a7-8255-3f1fc006c654",
       "width": 96,
       "x": 832,
-      "y": -64,
+      "y": -96,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -142,6 +148,74 @@
       "x": 832,
       "y": 384,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SoftDrinkBlue",
+      "persistentUuid": "4cd68c12-6c57-4ea5-a3d2-5869c1c7856f",
+      "width": 64,
+      "x": 352,
+      "y": 256,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "AmmoText",
+      "persistentUuid": "dd088765-10fc-48db-8e2e-79353341c5a8",
+      "width": 192,
+      "x": 608,
+      "y": 0,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SoftDrinkBlue",
+      "persistentUuid": "3915a388-755d-4208-b614-42af4a419909",
+      "width": 64,
+      "x": 704,
+      "y": 256,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SoftDrinkBlue",
+      "persistentUuid": "5848297e-c346-4738-a346-60d9de817965",
+      "width": 64,
+      "x": 992,
+      "y": 352,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -811,6 +885,142 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "c4224b1dd931333a1264b3197135482c1743f3d164c9da2d06e20e9984ec52d5",
+      "name": "SoftDrinkBlue",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TweenPathMovement",
+          "type": "CurvedMovement::TweenPathMovement",
+          "Flippable": "Flippable",
+          "Rotation": false,
+          "RotationOffset": 0,
+          "FlipXToGoBack": false,
+          "FlipYToGoBack": true,
+          "SpeedScale": 1,
+          "PathOriginX": 1.00000000000091,
+          "PathOriginY": 1.00000000000091,
+          "Target": 1.00000000000091,
+          "Origin": 1.00000000000091,
+          "PathName": "",
+          "Duration": 1.00000000000091,
+          "Easing": "",
+          "DrawingElementIndex": 0,
+          "X": 2.0247e-320,
+          "Y": 2.0247e-320,
+          "PathAngle": 2.0247e-320,
+          "PathScale": 2.0247e-320,
+          "RepetitionCount": 2.0247e-320,
+          "ShouldGoBack": false,
+          "ShouldLoop": false,
+          "RepetitionDoneCount": 2.0247e-320,
+          "IsGoingBack": false,
+          "PauseDurationBeforeGoingBack": 0,
+          "DrawingPathOriginX": 2.0247e-320,
+          "DrawingPathOriginY": 2.0247e-320,
+          "DebugLineStrokeWidth": 2.0247e-320,
+          "Viewpoint": "Top-Down"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Soft Drink Blue",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Soft Drink Blue.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 2
+                      },
+                      {
+                        "x": 25,
+                        "y": 2
+                      },
+                      {
+                        "x": 25,
+                        "y": 31
+                      },
+                      {
+                        "x": 7,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "AmmoText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Ammo: 5",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 43,
+        "g": 185,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Ammo: 5",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "color": "0;185;43"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -833,6 +1043,12 @@
       },
       {
         "objectName": "Arrow"
+      },
+      {
+        "objectName": "SoftDrinkBlue"
+      },
+      {
+        "objectName": "AmmoText"
       }
     ]
   },
@@ -1027,7 +1243,7 @@
             "ChiChiTheBird",
             "Physics2",
             "=",
-            "200"
+            "200+ChiChiTheBird.CenterX()*0.1"
           ]
         }
       ]
@@ -1095,6 +1311,60 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "ChiChiTheBird",
+            "SoftDrinkBlue",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "SoftDrinkBlue",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "ammo",
+            "+",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "AmmoText",
+            "Text",
+            "=",
+            "\"Ammo: \"+ammo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -1124,6 +1394,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
@@ -1174,12 +1477,20 @@
       "type": "PlatformBehavior::PlatformBehavior"
     },
     {
+      "name": "RectangleMovement",
+      "type": "RectangleMovement::RectangleMovement"
+    },
+    {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
     },
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "Tween",
